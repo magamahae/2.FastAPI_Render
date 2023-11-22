@@ -15,7 +15,7 @@ df_reviews_as = pd.read_parquet('DATA/df_developer_sanalysis.parquet')
 df_games = pd.read_parquet('DATA/df_genres_year_1.parquet')
 df_games_item = pd.read_parquet('DATA/genre_use_year_2.parquet')
 df_games_title = pd.read_parquet('DATA/release_year_title_3.parquet')
-df_developers = pd.read_parquet('DATA/year_developer_4.parquet')
+#df_developers = pd.read_parquet('DATA/year_developer_4.parquet')
 
 #---------------------año con mas horas jugadas para dicho género---------------#
 @app.get('/PlayTimeGenre')
